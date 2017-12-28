@@ -30,5 +30,7 @@ for i in xrange(0,6):
 												s ^= x[j+1]
 											print "Result %d :" %(i)
 											if s == check_flag[i]:
+												tmp = ''
 												for j in x:
-													print str(chr(j))
+													tmp += str(chr(j))
+												print tmp
